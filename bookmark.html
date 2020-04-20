@@ -1,0 +1,56 @@
+<html>
+<head><link href="bg.css" rel="stylesheet" type="text/css"></head>
+
+<body>
+<form action="bookmark.html" method="Get">
+<table align="center" >
+
+	<tr>
+		<td style="text-align: right">First Name :</td>
+		<td><input type="text" name="fname" required></td>
+	</tr>
+	<tr>
+		<td style="text-align: right">Last Name  :</td>
+		<td><input type="text" name="lname" required></td>
+	</tr>
+	<tr>
+		<td style="text-align: right">No. of visitors:</td>
+		<td><input type="no" name="n_visiotrs" required></td>
+	</tr>
+	<tr>
+		<td style="text-align: right"><label for="amusement parks">Choose a Amusement Park:</label></td>
+		<td>
+  <select id="amusement parks" name="parklist" form="parkform">
+  <option value="Imagica">Imagica</option>
+  <option value="Essel World">Essel World</option>
+  <option value="Water kingdom">Water Kingdom</option>
+  <option value="snow world">Snow World</option>
+  <option value="snow kingdom">Snow Kingdom</option>
+  <option value="tikujiniwadi">Tiku ji-ni-wadi</option>
+  <option value="kidzania">Kidzania</option>
+  <option value="yazoo park">Yazoo Park</option>
+  <option value="Magic Mountain">Magic Mountain</option>
+  <option value="Bounce">Bounce</option>
+  <option value="lets play">Let's Play</option>
+  </select>
+    </td>
+	</tr>
+	<tr>
+		<td style="text-align: right">Enter your card detail:</td>
+		<td><input type="text" name="c_detail" required></td>
+	</tr>
+	<tr>
+		<td style="text-align: right">Enter your cvv:</td>
+		<td><input type="password" maxlength="3" ></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align: center">Price per ticket=800</td>
+	</tr>
+</table>
+<center>
+<input type="Submit" onclick="alert('Your Tickets have been booked')">
+<input type="Reset">
+</center>
+</form>
+</body>
+</html>
